@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prism Decor | Home Decor & Interior Essentials | Santoshpur</title>
+  <meta name="description" content="Santoshpur's premier home decor & interior essentials studio. Stylish, affordable, and quality curtains, wall art, designer lighting, and custom furnishings. Visit us at 3 No. Karbla Auto Stand, Santoshpur.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-content">
+      <span><i class="fa-solid fa-gem"></i> Special Launch Offer: <strong>Flat 15% OFF</strong> on Custom Curtains & Wall Accents this week!</span>
+      <div class="announcement-right">
+        <span><i class="fa-solid fa-location-dot"></i> Santoshpur, Kolkata</span>
+        <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20would%20like%20to%20know%20more%20about%20your%20interior%20decor%20services" target="_blank" class="announcement-link">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Client Pitch Mode Banner (Can be toggled) -->
+  <aside class="pitch-floating-badge" id="pitchBadge">
+    <div class="pitch-badge-content">
+      <div class="pitch-pulse"></div>
+      <div class="pitch-info">
+        <strong>Pitch Prototype Demo</strong>
+        <span>Prepared for @prismdecor5352</span>
+      </div>
+      <button class="pitch-action-btn" id="openPitchModal">Why This Works <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo" id="brandLogo">
+        <div class="brand-symbol">
+          <i class="fa-solid fa-gem"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">PRISM DECOR</span>
+          <span class="brand-subtitle">Home Decor & Interior Essentials</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" id="desktopNav">
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#visualizer" class="nav-link">Room Visualizer</a>
+        <a href="#estimator" class="nav-link">Cost Estimator</a>
+        <a href="#reels" class="nav-link">Instagram Reels</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Store & Visit</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#estimator" class="btn btn-outline nav-calc-btn">
+          <i class="fa-solid fa-calculator"></i> Quick Quote
+        </a>
+        <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20am%20interested%20in%20visiting%20your%20Santoshpur%20studio" target="_blank" class="btn btn-primary" id="navWhatsappBtn">
+          <i class="fa-brands fa-whatsapp"></i> Chat with Us
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#collections" class="mobile-link">Collections</a>
+      <a href="#visualizer" class="mobile-link">Room Visualizer</a>
+      <a href="#estimator" class="mobile-link">Cost Estimator</a>
+      <a href="#reels" class="mobile-link">Instagram Reels (@prismdecor5352)</a>
+      <a href="#about" class="mobile-link">About Prism</a>
+      <a href="#contact" class="mobile-link">Store Location</a>
+      <div class="mobile-menu-cta">
+        <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor" class="btn btn-primary btn-block">
+          <i class="fa-brands fa-whatsapp"></i> Connect on WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Santoshpur's Trusted Decor Studio • 3 No. Karbla Auto Stand</span>
+        </div>
+        
+        <h1 class="hero-headline">
+          Transform Your Space Into <span class="gradient-text">Living Art</span>
+        </h1>
+        
+        <p class="hero-subtext">
+          Curated designer curtains, textured wall accents, ambient lighting, and bespoke soft furnishings tailored to your lifestyle. Exceptional aesthetics crafted to be stylish, affordable, and durable.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#visualizer" class="btn btn-primary btn-lg pulse-hover">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Try Room Visualizer
+          </a>
+          <a href="#collections" class="btn btn-glass btn-lg">
+            <i class="fa-solid fa-compass"></i> Explore Collections
+          </a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <span class="metric-num">500+</span>
+            <span class="metric-lbl">Homes Styled</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <span class="metric-num">4.9 <i class="fa-solid fa-star text-gold"></i></span>
+            <span class="metric-lbl">Google & IG Reviews</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <span class="metric-num">100%</span>
+            <span class="metric-lbl">Custom Made Fits</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card-showcase">
+        <div class="hero-main-card glass-panel">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80" alt="Luxury Living Room Interior styled by Prism Decor" class="hero-img" id="heroFeaturedImage">
+          
+          <div class="floating-tag tag-top-right">
+            <div class="tag-icon"><i class="fa-solid fa-check"></i></div>
+            <div>
+              <small>Client Favorite</small>
+              <strong>Velvet Sheer Drapery</strong>
+            </div>
+          </div>
+
+          <div class="floating-tag tag-bottom-left">
+            <div class="tag-icon"><i class="fa-solid fa-sparkles"></i></div>
+            <div>
+              <small>New Arrival</small>
+              <strong>Fluted Acoustic Panels</strong>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <div class="footer-info">
+              <span>Current Featured Collection</span>
+              <h4>Modern Minimalist Living Elegance</h4>
+            </div>
+            <button class="icon-round-btn" id="quickInquireHero" title="Inquire this exact setup">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Pillars / Values -->
+  <section class="pillars-section">
+    <div class="container">
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-palette"></i></div>
+          <div class="pillar-body">
+            <h3>Stylish Curation</h3>
+            <p>Handpicked contemporary designs, fabrics, and textures inspired by high-end architectural aesthetics.</p>
+          </div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-coins"></i></div>
+          <div class="pillar-body">
+            <h3>Truly Affordable</h3>
+            <p>Direct-to-client pricing that eliminates heavy retail markups without ever compromising on material quality.</p>
+          </div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="pillar-body">
+            <h3>Crafted Quality</h3>
+            <p>High GSM fabrics, premium blackout backings, rust-proof hardware, and immaculate custom tailoring.</p>
+          </div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-person-shelter"></i></div>
+          <div class="pillar-body">
+            <h3>On-Site Free Consultation</h3>
+            <p>Free measurement visits across Santoshpur, Jadavpur, Garia, and South Kolkata with fabric swatch books.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Room Visualizer / Moodboard Studio -->
+  <section class="visualizer-section" id="visualizer">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Interactive Pitch Feature</span>
+        <h2 class="section-title">Prism Interactive Room Studio</h2>
+        <p class="section-subtitle">
+          Test different vibes for your space before ordering. Switch styles, preview coordinating curtains, lighting, and wall textures, and get an instant custom quotation.
+        </p>
+      </div>
+
+      <div class="visualizer-board glass-panel">
+        <div class="visualizer-controls">
+          <label class="control-label">Select Interior Vibe:</label>
+          <div class="vibe-selector" id="vibeSelector">
+            <button class="vibe-btn active" data-vibe="japandi">
+              <span class="vibe-dot" style="background: #D8C3A5;"></span> Warm Japandi
+            </button>
+            <button class="vibe-btn" data-vibe="emerald">
+              <span class="vibe-dot" style="background: #2E473B;"></span> Emerald Luxe
+            </button>
+            <button class="vibe-btn" data-vibe="royal">
+              <span class="vibe-dot" style="background: #2B2C34;"></span> Royal Midnight
+            </button>
+            <button class="vibe-btn" data-vibe="boho">
+              <span class="vibe-dot" style="background: #C38D9E;"></span> Soft Bohemian
+            </button>
+          </div>
+        </div>
+
+        <div class="visualizer-stage">
+          <!-- Room Preview Showcase -->
+          <div class="stage-preview">
+            <div class="preview-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80" alt="Interactive Room Mockup" id="visualizerMainImg">
+              <div class="preview-overlay-info">
+                <span class="overlay-badge" id="visualizerStyleName">Warm Japandi Style</span>
+                <span class="overlay-price" id="visualizerPriceEst">Est. Room Bundle: ₹14,999/-</span>
+              </div>
+            </div>
+            
+            <div class="swatch-strip">
+              <span class="swatch-lbl">Coordinated Color Swatches:</span>
+              <div class="swatch-items" id="swatchList">
+                <span class="swatch-circle" style="background: #E8D8C8;" title="Oatmeal Linen"></span>
+                <span class="swatch-circle" style="background: #C49C74;" title="Warm Teak"></span>
+                <span class="swatch-circle" style="background: #7D6B5D;" title="Smoked Taupe"></span>
+                <span class="swatch-circle" style="background: #FAF7F2;" title="Alabaster White"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Component Details Accordion / Specs -->
+          <div class="stage-specs">
+            <h3 class="specs-heading" id="specsHeading">What's In This Japandi Look</h3>
+            <p class="specs-desc" id="specsDesc">
+              Earthy tones, natural textured linen sheer drapes paired with oak slats and warm ambient halo lighting. Ideal for peaceful, clutter-free Kolkata homes.
+            </p>
+
+            <div class="included-elements" id="includedElements">
+              <div class="element-row">
+                <div class="elem-icon"><i class="fa-solid fa-scroll"></i></div>
+                <div class="elem-details">
+                  <strong>Belgian Texture Linen Drapes</strong>
+                  <span>Custom sized, pinch pleat or eyelet finish</span>
+                </div>
+                <span class="elem-price">₹4,200</span>
+              </div>
+
+              <div class="element-row">
+                <div class="elem-icon"><i class="fa-solid fa-border-all"></i></div>
+                <div class="elem-details">
+                  <strong>Fluted Natural Timber Wall Accent</strong>
+                  <span>Pre-finished waterproof acoustic panels (8ft x 4ft)</span>
+                </div>
+                <span class="elem-price">₹6,800</span>
+              </div>
+
+              <div class="element-row">
+                <div class="elem-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="elem-details">
+                  <strong>Minimalist Warm Pendant Fixture</strong>
+                  <span>Soft warm 3000K dimmable LED ambiance</span>
+                </div>
+                <span class="elem-price">₹2,499</span>
+              </div>
+
+              <div class="element-row">
+                <div class="elem-icon"><i class="fa-solid fa-couch"></i></div>
+                <div class="elem-details">
+                  <strong>Geometric Woven Cushion Set (4 pcs)</strong>
+                  <span>Textured cotton-linen with hidden zippers</span>
+                </div>
+                <span class="elem-price">₹1,500</span>
+              </div>
+            </div>
+
+            <div class="stage-actions">
+              <button class="btn btn-primary btn-block" id="inquireMoodboardBtn">
+                <i class="fa-brands fa-whatsapp"></i> Inquire This Exact Setup
+              </button>
+              <button class="btn btn-outline btn-block" id="copyMoodboardSpecs">
+                <i class="fa-regular fa-clipboard"></i> Copy Setup Specs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Collections / Lookbook with Filter Tabs -->
+  <section class="collections-section" id="collections">
+    <div class="container">
+      <div class="section-header flex-between">
+        <div>
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Handpicked Lookbook</span>
+          <h2 class="section-title">Interior Essentials Catalog</h2>
+          <p class="section-subtitle">Crafted with precision for living rooms, bedrooms, and signature accent corners.</p>
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+          <button class="tab-btn active" data-filter="all">All Items</button>
+          <button class="tab-btn" data-filter="curtains">Curtains & Blinds</button>
+          <button class="tab-btn" data-filter="wall">Wall Art & Panels</button>
+          <button class="tab-btn" data-filter="lighting">Designer Lighting</button>
+          <button class="tab-btn" data-filter="furnishings">Soft Furnishings</button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Populated dynamically via JS with rich imagery and specs -->
+      </div>
+
+      <div class="collections-footer text-center">
+        <p>Looking for a custom fabric color or specific window dimension?</p>
+        <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20have%20a%20custom%20size%20requirement%20for%20my%20windows%20and%20walls" target="_blank" class="btn btn-outline">
+          <i class="fa-solid fa-ruler-combined"></i> Request Custom Dimension Quote
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Project Cost Estimator -->
+  <section class="estimator-section" id="estimator">
+    <div class="container">
+      <div class="estimator-wrapper glass-panel">
+        <div class="estimator-intro">
+          <span class="section-tag"><i class="fa-solid fa-calculator"></i> Transparent Pricing</span>
+          <h2 class="section-title">Instant Room Decor Estimator</h2>
+          <p>
+            No hidden costs. Choose your room requirements and immediately see an accurate estimate for materials, tailoring, and professional setup.
+          </p>
+          <ul class="estimator-perks">
+            <li><i class="fa-solid fa-check text-gold"></i> Free site measurements across Kolkata</li>
+            <li><i class="fa-solid fa-check text-gold"></i> Premium stitching with double-stitch hem</li>
+            <li><i class="fa-solid fa-check text-gold"></i> Free delivery to your doorstep</li>
+          </ul>
+        </div>
+
+        <div class="estimator-calculator">
+          <div class="calc-group">
+            <label class="calc-label">1. Choose Room Type:</label>
+            <div class="calc-options" id="roomOptions">
+              <button class="calc-opt-btn active" data-room="living" data-multiplier="1">
+                <i class="fa-solid fa-couch"></i>
+                <span>Living Room</span>
+              </button>
+              <button class="calc-opt-btn" data-room="bedroom" data-multiplier="0.85">
+                <i class="fa-solid fa-bed"></i>
+                <span>Master Bedroom</span>
+              </button>
+              <button class="calc-opt-btn" data-room="dining" data-multiplier="0.75">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Dining Area</span>
+              </button>
+              <button class="calc-opt-btn" data-room="fullhome" data-multiplier="2.6">
+                <i class="fa-solid fa-house"></i>
+                <span>Full 2/3 BHK</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label">2. Select Quality / Tier Level:</label>
+            <div class="calc-options" id="tierOptions">
+              <button class="calc-opt-btn" data-tier="essential" data-rate="1">
+                <span class="tier-tag">Smart Value</span>
+                <strong>Essential</strong>
+                <small>Quality Linen & Sheers</small>
+              </button>
+              <button class="calc-opt-btn active" data-tier="premium" data-rate="1.45">
+                <span class="tier-tag">Most Popular</span>
+                <strong>Signature</strong>
+                <small>Thermal Blackout + Velvet</small>
+              </button>
+              <button class="calc-opt-btn" data-tier="luxe" data-rate="2.1">
+                <span class="tier-tag">High-End</span>
+                <strong>Royal Bespoke</strong>
+                <small>Fluted Panels + Motorized</small>
+              </button>
+            </div>
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label">3. Add-on Decor Elements:</label>
+            <div class="addons-grid">
+              <label class="addon-checkbox">
+                <input type="checkbox" id="addonCurtains" checked data-cost="5500">
+                <span class="checkbox-custom"></span>
+                <span>Designer Curtains (Pair + Sheers)</span>
+              </label>
+              <label class="addon-checkbox">
+                <input type="checkbox" id="addonWall" checked data-cost="6000">
+                <span class="checkbox-custom"></span>
+                <span>Accent Wall Panel / Gallery Art</span>
+              </label>
+              <label class="addon-checkbox">
+                <input type="checkbox" id="addonLighting" data-cost="3200">
+                <span class="checkbox-custom"></span>
+                <span>Warm Chandelier / Ambient Lights</span>
+              </label>
+              <label class="addon-checkbox">
+                <input type="checkbox" id="addonCushions" checked data-cost="1800">
+                <span class="checkbox-custom"></span>
+                <span>Curated Cushions & Rug Bundle</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="calc-summary">
+            <div class="summary-total">
+              <span>Estimated Package Total:</span>
+              <div class="total-price" id="calcTotalPrice">₹19,285</div>
+              <small class="total-note">*Includes materials, tailoring & on-site fitting guidance</small>
+            </div>
+            <button class="btn btn-primary btn-lg" id="sendEstimateBtn">
+              <i class="fa-brands fa-whatsapp"></i> Lock This Quote on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Reels & Real Spaces Showcase -->
+  <section class="reels-section" id="reels">
+    <!-- Anchor alias for backward compatibility with lookbook/gallery links -->
+    <div id="gallery" style="position: absolute; top: -80px;"></div>
+    
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-brands fa-instagram"></i> Official Instagram Feed @prismdecor5352</span>
+        <h2 class="section-title">All 8 Official Instagram Reels & Projects</h2>
+        <p class="section-subtitle">
+          Real South Kolkata living spaces transformed by Prism Decor. Watch our curtain pleat tests, fluted louver installations, and studio walk-throughs in 9:16 vertical video.
+        </p>
+      </div>
+
+      <!-- Live Instagram Profile Card -->
+      <div class="insta-profile-banner glass-panel">
+        <div class="insta-banner-left">
+          <div class="insta-avatar-ring">
+            <div class="insta-avatar-inner">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+          </div>
+          <div class="insta-bio-content">
+            <div class="insta-handle-row">
+              <h3 class="insta-handle">prismdecor5352</h3>
+              <span class="verified-badge" title="Official Business Account"><i class="fa-solid fa-circle-check"></i> Verified</span>
+              <span class="location-badge"><i class="fa-solid fa-location-dot"></i> Santoshpur, Kolkata</span>
+            </div>
+            <p class="insta-bio-text">
+              💎 <strong>Prism Decor</strong> • 🏡 Home Decor & Interior Essentials<br>
+              🎨 <em>Stylish • Affordable • Quality</em> • 📍 3 No. Karbla Auto Stand, Santoshpur
+            </p>
+            <div class="insta-stats-row">
+              <span class="stat-badge"><strong>8</strong> Reels & Posts</span>
+              <span class="stat-badge"><strong>264</strong> Followers</span>
+              <span class="stat-badge"><strong>12</strong> Following</span>
+              <span class="stat-badge"><i class="fa-solid fa-star text-gold"></i> <strong>4.9/5</strong> Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="insta-banner-actions">
+          <a href="https://www.instagram.com/prismdecor5352/" target="_blank" class="btn btn-insta" id="igFollowBtn">
+            <i class="fa-brands fa-instagram"></i> Follow @prismdecor5352
+          </a>
+          <a href="https://www.instagram.com/prismdecor5352/reels/" target="_blank" class="btn btn-outline btn-sm">
+            <i class="fa-solid fa-play"></i> Watch on Reels
+          </a>
+        </div>
+      </div>
+
+      <!-- Reels Filter Tabs -->
+      <div class="reels-filter-bar">
+        <div class="reels-filter-title">
+          <i class="fa-solid fa-film text-gold"></i> Filter Reels by Category:
+        </div>
+        <div class="reels-filter-buttons" id="reelsFilterButtons">
+          <button class="reel-filter-btn active" data-category="all">All Reels (8)</button>
+          <button class="reel-filter-btn" data-category="curtains">Curtains & Drapes (3)</button>
+          <button class="reel-filter-btn" data-category="wall">Wall Paneling (1)</button>
+          <button class="reel-filter-btn" data-category="studio">Studio & Lighting (2)</button>
+          <button class="reel-filter-btn" data-category="client">Client Reveals (2)</button>
+        </div>
+      </div>
+
+      <!-- 8 Reels Dynamic Grid Container -->
+      <div class="reels-grid" id="reelsGrid">
+        <!-- Rendered dynamically via JavaScript with rich 9:16 cards -->
+      </div>
+
+      <!-- Custom Consultation & Instagram Inspiration Matcher -->
+      <div class="reels-bottom-cta glass-panel text-center">
+        <div class="reels-cta-inner">
+          <div class="reels-cta-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="reels-cta-text">
+            <h3>Found an Interior Reel or Decor Idea on Instagram?</h3>
+            <p>Send the video link or screenshot to our WhatsApp team. We'll match fabrics from our 2,000+ catalog and provide a transparent quotation within 2 business hours.</p>
+          </div>
+          <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20saw%20an%20interior%20idea%20on%20Instagram%20and%20want%20to%20know%20if%20you%20can%20make%20it%20for%20my%20home" target="_blank" class="btn btn-primary pulse-hover">
+            <i class="fa-brands fa-whatsapp"></i> Send Reel for Price Match
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-heart text-gold"></i> Client Stories</span>
+        <h2 class="section-title">Loved by Kolkata Homeowners</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass-panel">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "Prism Decor completely changed the vibe of our 3BHK living room. The fabric quality of the blackout drapes is incredible, and their pricing was almost half of what South City branded showrooms quoted us!"
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">S</div>
+            <div>
+              <strong>Sourav Mukherjee</strong>
+              <span>Santoshpur East Lake, Kolkata</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-panel">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "They came home with all fabric catalogs for measurement, suggested the exact fluted panel finish that matches our teak console, and delivered within 4 days. Unmatched service at Karbla auto stand."
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">R</div>
+            <div>
+              <strong>Rituparna Sen</strong>
+              <span>Jadavpur Central Road</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-panel">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "Extremely stylish aesthetics without burning a hole in the pocket. The ambient warm lighting and brass wall art we got looks like something straight out of Architectural Digest."
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div>
+              <strong>Anirban Ghosh</strong>
+              <span>Garia Station Road</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Store Location, Visiting Hub & Contact -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card glass-panel">
+        <div class="contact-info">
+          <span class="section-tag"><i class="fa-solid fa-store"></i> Visit Our Studio</span>
+          <h2 class="section-title">Touch & Feel Our Fabrics In Person</h2>
+          <p class="contact-desc">
+            Visit our Santoshpur showroom to touch high GSM velvets, explore sheer drapery samples under natural light, and discuss your home decor ideas directly over a cup of tea.
+          </p>
+
+          <div class="info-blocks">
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Studio Address</strong>
+                <p>3 No. Karbla Auto Stand, Santoshpur, Kolkata, West Bengal</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Direct Phone / WhatsApp</strong>
+                <p>+91 90000 00000 / Direct Chat Available</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong>Showroom Hours</strong>
+                <p>Open All 7 Days: 10:30 AM – 9:00 PM</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-solid fa-truck-fast"></i></div>
+              <div>
+                <strong>Free Home Consultation Area</strong>
+                <p>Santoshpur, Jadavpur, Baghajatin, Garia, Mukundapur & surrounding areas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta-btns">
+            <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20want%20to%20schedule%20a%20free%20home%20visit" target="_blank" class="btn btn-primary btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Book Free Home Visit
+            </a>
+            <a href="tel:9000000000" class="btn btn-outline btn-lg">
+              <i class="fa-solid fa-phone"></i> Call Studio
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map-card">
+          <div class="map-container">
+            <!-- Stylized Map Visualizer -->
+            <div class="stylized-map">
+              <div class="map-bg"></div>
+              <div class="map-pin-pulse">
+                <div class="pulse-ring"></div>
+                <div class="pin-marker">
+                  <i class="fa-solid fa-gem"></i>
+                </div>
+                <div class="pin-card">
+                  <strong>PRISM DECOR</strong>
+                  <span>3 No. Karbla Auto Stand</span>
+                  <span class="status-open"><i class="fa-solid fa-circle"></i> Open Today till 9 PM</span>
+                </div>
+              </div>
+
+              <div class="landmark-pin l1">Santoshpur Lake</div>
+              <div class="landmark-pin l2">Jadavpur Stn ➔</div>
+              <div class="landmark-pin l3">EM Bypass Link ➔</div>
+            </div>
+
+            <div class="map-footer">
+              <div class="map-directions-info">
+                <span><i class="fa-solid fa-compass"></i> Easy Landmark: Right beside Karbla Auto Stand</span>
+              </div>
+              <a href="https://maps.google.com/?q=Santoshpur+Kolkata" target="_blank" class="btn btn-sm btn-primary">
+                Get Directions <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick View Product Modal -->
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-dialog glass-panel">
+      <button class="modal-close" id="modalClose" aria-label="Close details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Pitch Deck Info Modal (Explaining why this site is a goldmine for Prism Decor) -->
+  <div class="modal" id="pitchModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="pitchModalBackdrop"></div>
+    <div class="modal-dialog glass-panel pitch-modal-dialog">
+      <button class="modal-close" id="pitchModalClose" aria-label="Close pitch modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-pitch-content">
+        <div class="pitch-modal-header">
+          <div class="brand-symbol"><i class="fa-solid fa-gem"></i></div>
+          <div>
+            <h3>Website Proposal for Prism Decor</h3>
+            <span class="text-gold">Tailored for @prismdecor5352 • Santoshpur, Kolkata</span>
+          </div>
+        </div>
+
+        <div class="pitch-modal-body">
+          <p class="pitch-lead">
+            Right now, customers discovering <strong>Prism Decor</strong> on Instagram or passing by <strong>3 No. Karbla Auto Stand</strong> have no digital catalog or interactive tool to explore before visiting.
+          </p>
+
+          <div class="pitch-perks-grid">
+            <div class="pitch-perk">
+              <div class="perk-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <strong>Direct WhatsApp Lead Capture</strong>
+                <p>Every product, room style, and cost calculator click connects directly to your phone with pre-filled inquiries.</p>
+              </div>
+            </div>
+
+            <div class="pitch-perk">
+              <div class="perk-icon"><i class="fa-solid fa-calculator"></i></div>
+              <div>
+                <strong>Interactive Decor Estimator</strong>
+                <p>Kolkata homeowners get instant transparency on budgets, establishing trust before booking a visit.</p>
+              </div>
+            </div>
+
+            <div class="pitch-perk">
+              <div class="perk-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <strong>Interactive Room Visualizer</strong>
+                <p>Separates Prism Decor from ordinary local curtain shops by offering high-end interior styling confidence.</p>
+              </div>
+            </div>
+
+            <div class="pitch-perk">
+              <div class="perk-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+              <div>
+                <strong>Instant Mobile-First Speed</strong>
+                <p>Lightning fast, zero lag, works smoothly on low-bandwidth phones with zero monthly app store fees.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pitch-modal-cta">
+            <div class="cta-banner">
+              <strong>Ready to launch this under www.prismdecor.in?</strong>
+              <p>Includes custom domain setup, full product inventory upload, Google Business Map sync & WhatsApp automation.</p>
+            </div>
+            <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20loved%20this%20website%20proposal%20and%20would%20like%20to%20discuss%20launching%20it" target="_blank" class="btn btn-primary btn-block">
+              <i class="fa-brands fa-whatsapp"></i> Accept Proposal & Launch Website
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Instagram Reel Modal Viewer -->
+  <div class="modal" id="reelModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="reelModalBackdrop"></div>
+    <div class="modal-dialog glass-panel reel-modal-dialog">
+      <button class="modal-close reel-modal-close" id="reelModalClose" aria-label="Close reel viewer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="reel-modal-body" id="reelModalBody">
+        <!-- Injected dynamically via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-symbol"><i class="fa-solid fa-gem"></i></div>
+            <div class="brand-text">
+              <span class="brand-title">PRISM DECOR</span>
+              <span class="brand-subtitle">Home Decor & Interior Essentials</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            Kolkata's modern interior essentials studio. Designing warm, sophisticated spaces with premium curtains, fluted wall treatments, statement art, and ambient lighting.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/prismdecor5352/#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919000000000" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#collections">Curtains & Drapes</a></li>
+            <li><a href="#collections">Fluted Wall Panels</a></li>
+            <li><a href="#collections">Ambient Lighting</a></li>
+            <li><a href="#collections">Designer Cushions & Rugs</a></li>
+            <li><a href="#visualizer">Room Visualizer</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Studio Info</h4>
+          <ul>
+            <li><a href="#contact">3 No. Karbla Auto Stand</a></li>
+            <li><a href="#contact">Santoshpur, Kolkata</a></li>
+            <li><a href="#estimator">Cost Calculator</a></li>
+            <li><a href="#gallery">Recent Installations</a></li>
+            <li><a href="#contact">Free Home Measurement</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Store Hours</h4>
+          <p class="hours-text">Monday – Sunday<br><strong>10:30 AM to 9:00 PM</strong></p>
+          <p class="service-note"><i class="fa-solid fa-truck"></i> Home visits scheduled across South & Central Kolkata.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom flex-between">
+        <p>&copy; 2026 Prism Decor. All Rights Reserved. Designed as a high-converting web pitch.</p>
+        <div class="footer-bottom-links">
+          <a href="#contact">Privacy Policy</a>
+          <span>•</span>
+          <a href="#contact">Terms of Service</a>
+          <span>•</span>
+          <a href="#pitchModal" id="footerPitchLink">Pitch Demo Specs</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/919000000000?text=Hi%20Prism%20Decor%2C%20I%20would%20like%20to%20inquire%20about%20your%20decor%20products" target="_blank" class="floating-whatsapp" aria-label="Chat directly on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with Prism Decor</span>
+  </a>
+
+  <!-- Custom Script -->
+  <script src="app.js"></script>
+</body>
+</html>
